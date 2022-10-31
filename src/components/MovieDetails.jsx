@@ -40,7 +40,7 @@ export const MovieDetails = () => {
                 <p className='text-sm text-gray-200 border-b-2 border-[#df8e1d]'>{movieDetail.vote_average}</p>
               </div>
               <h3 className='text-gray-300 font-semibold'>{movieDetail.tagline}</h3>
-              <p className='text-gray-300 text-sm'>{movieDetail.overview}</p>
+              <p className='bg-[#51576d] lg:bg-inherit rounded-lg p-3 text-gray-300 text-sm w-[400px]'>{movieDetail.overview}</p>
             </div>
           </div>
           </>

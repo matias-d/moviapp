@@ -17,7 +17,7 @@ export const Nav = () => {
                 <Link to='/moviapp' className='flex items-center gap-1 text-sm text-gray-300 lg:hover:bg-[#313244] py-3 lg:px-4 px-2 rounded-xl transition-colors'><RiHome3Line/>Home</Link>
               </li>
               <li>
-                <a href='#' className='flex items-center gap-1 text-sm text-gray-300 lg:hover:bg-[#313244] py-3 lg:px-4 px-2 rounded-xl transition-colors'><RiBracesLine/> About</a>
+                <a href='https://github.com/matias-d/moviapp' target='_blank' className='flex items-center gap-1 text-sm text-gray-300 lg:hover:bg-[#313244] py-3 lg:px-4 px-2 rounded-xl transition-colors'><RiBracesLine/> About</a>
               </li>
               <li>
                 <Link to='/top' className='flex items-center gap-1 text-sm text-gray-300 lg:hover:bg-[#313244] py-3 lg:px-4 px-2 rounded-xl transition-colors'><RiBarChartFill/> Top </Link>
