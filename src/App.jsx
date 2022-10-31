@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="bg-[#1e1e2e] min-h-screen ">
       <Routes>
-        <Route path='/' element={<HomePage />}/>
+        <Route path='/moviapp' element={<HomePage />}/>
         <Route path='/search/:id' element={<HomePage />}/>
         <Route path='/top' element={<TopMoviesPage />}/>
         <Route path='/movie/:movie' element={<MovieDetailsPage />}/>
