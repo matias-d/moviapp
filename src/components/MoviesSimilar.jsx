@@ -14,7 +14,7 @@ export const MoviesSimilar = () => {
       setMovies(resSplice)
     })
 
-  }, []);
+  }, [movie]);
 
   console.log(movies)
 
